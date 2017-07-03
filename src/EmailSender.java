@@ -49,13 +49,8 @@ public class EmailSender {
 
     public static void main(String... args) {
 
-        //prepare indeks
-//        File f = new File("indeksy.txt");
-//        List<String> mails = MailListCreator.createMailList(f, "@student.pwr.edu.pl");
-
         try {
             EmailData data = new EmailData();
-            //data.mailTo = mails;
 
             EmailSender.sendMail(data);
         } catch (MessagingException | UnsupportedEncodingException e) {

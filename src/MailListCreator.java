@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class MailListCreator {
 
+    //file with usernames
     public static List<String> createMailList(File file, String domain) {
 
         List<String> list = new LinkedList<>();

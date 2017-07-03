@@ -3,9 +3,9 @@ import javax.mail.PasswordAuthentication;
 
 public class EmailAuth extends Authenticator {
 
-    String username = "emailsender2@2.pl";
-    String password = "emailsender123";
-    String host = "t.pl";
+    String username = "email@email.com";
+    String password = "haslo";
+    String host = "serwer.pl";
 
 
 
